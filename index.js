@@ -22,7 +22,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     // Function to display a list of cocktails
     function showCocktailList(drinks) {
         cocktailList.innerHTML = ''; // Clear previous content before adding new items
-        const limitedDrinks = drinks.slice(0,40); // Limit the number of drinks to 40
+        const limitedDrinks = drinks.slice(0,40); // Limit the number of drinks to 42
         limitedDrinks.forEach(drink => {
             const listItem = document.createElement('li'); // Create a new list item element
             listItem.className = 'list-item'; // add a class name for styling

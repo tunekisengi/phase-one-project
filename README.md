@@ -1,7 +1,7 @@
 PHASE1 FINAL PROJECT
 This application is used to provide a user a list of recipes for them to create tasty cocktails using the type of alcohol they have at the moment
 
-Technologies used
+Technologies used:
 HTML
 CSS
 Bootstrap
